@@ -25,11 +25,11 @@ int main ()
         else if(proposition > JustePrix) { // proposition où le résultat est mauvais
             cout << "C'est moins !" << endl;
             auto difference (proposition - JustePrix);
-            if(difference > 1000) {
+            if(difference > 1000) { // Pour tous les essais au-dela de 1000
             cout << "Beaucoup moins !" << endl;
             }
         } else {
         cout << "C'est plus !" << endl;
         }
-    } while(proposition != JustePrix); // wile pour le Bloc loop
+    } while(proposition != JustePrix); // while pour le Bloc loop
 }
